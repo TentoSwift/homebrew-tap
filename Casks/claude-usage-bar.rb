@@ -7,7 +7,7 @@ cask "claude-usage-bar" do
   desc "Show Claude usage limits (5h / weekly / per-model) in the macOS menu bar"
   homepage "https://github.com/TentoSwift/ClaudeUsageBar"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Claude Usage Bar.app"
 
