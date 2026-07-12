@@ -1,6 +1,6 @@
 cask "claude-usage-bar" do
-  version "1.0.0"
-  sha256 "a88d9df31ffbc9edb8d8f9dd29146b2767320ee381205e4cd127b575d1fc8a7c"
+  version "1.0.1"
+  sha256 "9c720d9ac83c7d30caecd349a7066ac30e4094d6545895c63cbce36a911baae2"
 
   url "https://github.com/TentoSwift/ClaudeUsageBar/releases/download/v#{version}/ClaudeUsageBar.zip"
   name "Claude Usage Bar"
