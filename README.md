@@ -1,5 +1,5 @@
 # TentoSwift Homebrew Tap
 
 ```bash
-brew install --cask tentoswift/tap/claude-usage-bar --no-quarantine
+HOMEBREW_CASK_OPTS="--no-quarantine" brew install --cask tentoswift/tap/claude-usage-bar
 ```

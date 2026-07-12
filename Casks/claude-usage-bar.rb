@@ -14,7 +14,7 @@ cask "claude-usage-bar" do
   caveats <<~EOS
     このアプリは ad-hoc 署名（未公証）です。Gatekeeper の警告を避けるには
     --no-quarantine を付けてインストールしてください:
-      brew install --cask tentoswift/tap/claude-usage-bar --no-quarantine
+      HOMEBREW_CASK_OPTS="--no-quarantine" brew install --cask tentoswift/tap/claude-usage-bar
 
     Claude Code にログインしていることが必要です。
   EOS
